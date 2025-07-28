@@ -195,6 +195,7 @@
             Les Témoignages de nos clients
         </h3>
         <article class="customers__reviews">
+            <div class="review__img"></div>
             <p>
                 Tombédeu O.
             </p>
@@ -204,6 +205,7 @@
             </p>
         </article>
         <article class="customers__reviews">
+            <div class="review__img"></div>
             <p>
                 Jella N.
             </p>
@@ -213,6 +215,7 @@
             </p>
         </article>
         <article class="customers__reviews">
+            <div class="review__img"></div>
             <p>
                 Bob O.
             </p>
@@ -223,6 +226,7 @@
             </p>
         </article>
         <article class="customers__reviews">
+            <div class="review__img"></div>
             <p>
                 Coupéhala H.
             </p>
@@ -232,27 +236,25 @@
             </p>
         </article>
     </section>
-    <section>
+    <form autocomplete="on">
         <h3>
             Sauvez-moi !
         </h3>
-        <form autocomplete="on">
-            <label for="name" required></label>
-            <input type="text" id="name">
-            <label for="mail" required autocomplete="email"></label>
-            <input type="email" id="mail">
-            <label for=""></label>
-            <select name="services" id="super-services" required>
-                <option value="demenagement">Super Déménagement</option>
-                <option value="repas">Livraison de Repas</option>
-                <option value="bouchons">Z'héros Bouchons</option>
-                <option value="soiree">Sauvetage de soirée</option>
-            </select>
-            <label for="msg-input"></label>
-            <textarea name="msg" id="msg-input"></textarea>
-            <button type="submit">ENVOYER</button>
-        </form>
-    </section>
+        <label for="name" required>Nom</label>
+        <input type="text" id="name">
+        <label for="mail" required autocomplete="email">Email</label>
+        <input type="email" id="mail">
+        <label for="">Service</label>
+        <select name="services" id="super-services" required>
+            <option value="demenagement">Super Déménagement</option>
+            <option value="repas">Livraison de Repas</option>
+            <option value="bouchons">Z'héros Bouchons</option>
+            <option value="soiree">Sauvetage de soirée</option>
+        </select>
+        <label for="msg-input">Message</label>
+        <textarea name="msg" id="msg-input"></textarea>
+        <button type="submit">ENVOYER</button>
+    </form>
     <footer>
         <h3>
             Heros League

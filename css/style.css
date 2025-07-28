@@ -25,8 +25,10 @@ a:visited{
 article,
 .bg-img,
 .button-link,
-.heros{
-    border-radius: 1.5rem;
+form button,
+.heros,
+.customers__review{
+    border-radius: 20px;
 }
 /* titres */
 h1, h2, h3, h4, p, article{
@@ -100,7 +102,8 @@ section .super-services{
     font-weight: 600;
     margin: .5rem;
 }
-.button-link{
+.button-link,
+form button{
     background-color: var(--color-main);
     padding: 0.8rem 1.5rem;
     width: fit-content;
@@ -114,6 +117,7 @@ section .super-services{
 /* section heros */
 .section-heros .heros{
     background-size: cover;
+    background-position-x: center;
     height: 270px;
     margin: 1.5rem 0;
     display: flex;
@@ -164,7 +168,70 @@ section .super-services{
     background-color:var(--main-opacity);
     transform: translateY(0);
 }
-.section-heros .button-link a{
+.section-heros .button-link a,
+form button{
     text-transform: uppercase;
     font-size: 1rem;
+}
+/* section custommers */
+section .customers{
+    display: flex;
+    flex-direction: column;
+}
+.customers__reviews{
+    background-color: var(--color-main-deep);
+}
+.review__img{
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 40px 40px 100% 100%;
+    border: .6rem solid var(--color-main);
+    margin: 1.5rem 0;
+    margin-bottom: 2.5rem;
+}
+.customers__reviews:nth-of-type(1) .review__img{
+    background-image: url(../ressources/images/testimony-1.png);
+}
+.customers__reviews:nth-of-type(2) .review__img{
+    background-image: url(../ressources/images/testimony-2.png);
+}
+.customers__reviews:nth-of-type(3) .review__img{
+    background-image: url(../ressources/images/testimony-3.png);
+}
+.customers__reviews:nth-of-type(4) .review__img{
+    background-image: url(../ressources/images/testimony-4.png);
+}
+.customers__reviews p:nth-of-type(1){
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.customers__reviews p:nth-of-type(2){
+    font-style: italic;
+    padding: 1.3rem;
+}
+/* Formulaire de sourscription */
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+form input,
+form select{
+    border-radius: 20px;
+    height: 3.8rem;
+}
+form textarea{
+    border-radius: 20px;
+    height: 17rem;
+}
+form button{
+    color: var(--color-font);
+    border: none;
 }
