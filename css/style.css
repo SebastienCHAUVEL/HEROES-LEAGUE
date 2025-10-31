@@ -13,7 +13,11 @@
 body{
     background-color: var(--color-bg);
     color: var(--color-font);
-    padding: 0 1rem;
+}
+main,
+header{
+    width: 90vw;
+    margin: auto;
 }
 a{
     color: inherit;
@@ -53,6 +57,9 @@ h4{
 /* header */
 header .menu{
     margin: 3rem 0;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 header .menu nav{
     display: none;
@@ -157,7 +164,7 @@ form button{
     top: 0;
     left: 0;
     background-color: var(--color-main);
-    border-radius: 1.5rem 1.5rem 0 0;
+    border-radius: 20px 20px 0 0;
     transform: translateY(10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     padding: 0.9rem 1rem;
@@ -216,22 +223,62 @@ form{
     display: flex;
     flex-direction: column;
 }
+form input,
+form select,
+form textarea,
+form .select-container{
+    border-radius: 20px;
+    background-color: var(--color-input);
+    border: none;
+}
+form input,
+form .select-container{
+    height: 3.8rem;
+}
 form label{
     text-align: center;
     font-weight: 700;
     font-size: 1.2rem;
     margin: 1rem;
 }
-form input,
+form .select-container{
+    padding: 0 1rem;
+}
 form select{
-    border-radius: 20px;
-    height: 3.8rem;
+    color: var(--color-font);
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
 }
 form textarea{
-    border-radius: 20px;
     height: 17rem;
 }
 form button{
     color: var(--color-font);
     border: none;
+    font-weight: 700;
+}
+
+/* footer */
+footer{
+    background-color: var(--color-main-deep);
+    border-radius: 22% 67% 10% 10% / 12% 15% 0% 0% ;
+    padding: 2.2rem;
+    padding-top: 0.1rem;
+}
+footer h3{
+    margin-top: 2rem;
+}
+footer ul{
+    padding: 0;
+    margin-bottom: 3rem;
+}
+footer li{
+    list-style: none;
+    text-align: center;
+    margin: 1rem 0;
+}
+footer li:hover{
+    font-weight: 700;
 }
