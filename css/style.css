@@ -80,6 +80,8 @@ header .menu nav a:hover{
     background-image: url(../ressources/images/hero-banner.png);
     box-shadow: inset 0px 0px 40px 40px #00000099;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
