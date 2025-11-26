@@ -7,7 +7,7 @@
 ---
 
 ## 🎯 Objectifs du projet
-Ce projet a été réalisé à partir d’une **maquette Figma** (ou autre outil de design) avec les consignes suivantes :
+Ce projet a été réalisé à partir d’une **maquette** avec les consignes suivantes :
 - **Respect des designs** : Implémentation fidèle des maquettes pour desktop, tablette et mobile.
 - **Navigation fluide** : Utilisation d’ancres pour les liens du menu.
 - **Effets interactifs** : Animations au survol (héros, boutons, menu).
