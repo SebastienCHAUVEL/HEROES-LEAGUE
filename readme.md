@@ -1,57 +1,68 @@
-# Heros League
+# 🦸‍♂️ Heros League
 
-Réalisation d'une page web statique en HTML/CSS à partir d'une maquette
+**Heros League** est un site web statique **responsive** conçu pour une agence de super-héros proposant des services uniques. Ce projet met en œuvre des techniques avancées de **HTML5** et **CSS3** pour créer une expérience utilisateur fluide et visuellement attrayante, avec des animations, des effets de survol, et une mise en page adaptative.
 
-## Demo
+👉 **[Voir la démo en ligne](https://sebastienchauvel.github.io/HEROES-LEAGUE/)**
 
-[Voir le rendu ](https://sebastienchauvel.github.io/HEROES-LEAGUE/)
+---
 
-## Consignes
+## 🎯 Objectifs du projet
+Ce projet a été réalisé à partir d’une **maquette Figma** (ou autre outil de design) avec les consignes suivantes :
+- **Respect des designs** : Implémentation fidèle des maquettes pour desktop, tablette et mobile.
+- **Navigation fluide** : Utilisation d’ancres pour les liens du menu.
+- **Effets interactifs** : Animations au survol (héros, boutons, menu).
+- **Responsive design** : Adaptation du site à toutes les tailles d’écran.
+- **Police personnalisée** : Intégration de la police **Satoshi** ([Fontshare](https://www.fontshare.com/?q=Satoshi)).
 
-- La police d'écriture est celle-ci : [Satoshi](https://www.fontshare.com/?q=Satoshi)
-- Les liens du menus doivent être des ancres qui pointent vers la section correspondante
-- La première section avec la grande image doit prendre tout l'espace disponible dans la hauteur de l'écran (et ne pas dépasser !)
-- Au survol d'un héros, un texte supplémentaire doit apparaître par dessus l'image (voir maquette). Petit détail, le texte doit apparaître par le haut de l'image
-- Il y a un bouton pour voir plus de héros mais pour le moment il n'y a pas de page de prévue par le designer, donc renseigne "#" en lien, on verra plus tard !
+---
 
-## Maquette globale
+## 🛠 Technologies utilisées
+- **HTML5** : Structure sémantique et balisage propre.
+- **CSS3** :
+  - **Flexbox** et **Grid** pour les mises en page complexes.
+  - **Animations** et **transitions** pour les effets de survol.
+  - **Media Queries** pour le responsive design.
+  - **Variables CSS** pour une maintenance simplifiée.
 
-![Home](./ressources/home.png)
+---
 
-### Header
 
-Le menu doit passer par dessus le contenu au scroll.
+---
 
-![Header](./ressources/header.png)
+## 🖥 Maquettes et consignes
+### **Maquette globale (Desktop)**
+![Maquette Desktop](ressources/home.png)
 
-## Hovers
+### **Comportements spécifiques**
+1. **Menu collant** :
+   - Le menu reste visible en haut de l’écran lors du scroll.
+   - ![Header](ressources/header.png)
 
-### Menu
+2. **Effets de survol** :
+   - **Héros** : Un texte supplémentaire apparaît au survol.
 
-![Menu](./ressources/menu-hover.png)
+     ![Hover Héros](ressources/hover-hero.png)
+   - **Boutons** : Changement de couleur et effet visuel.
 
-### Héros
+     ![Hover Bouton](ressources/button-hover.png)
+   - **Menu** : Soulignement ou changement de couleur.
 
-![Héros](./ressources/hover-hero.png)
+     ![Hover Menu](ressources/menu-hover.png)
 
-### Bouton
+3. **Focus des inputs** :
+   - Contour coloré pour améliorer l’accessibilité.
 
-![Bouton](./ressources/button-hover.png)
+     ![Input Focus](ressources/input-focus.png)
 
-### Footer menu 
+4. **Footer** :
+   - Liens avec effets de survol.
 
-![Footer menu](./ressources/footer-menu-hover.png)
+     ![Footer Menu Hover](ressources/footer-menu-hover.png)
 
-## Input Focus Outline
+### **Responsive Design**
+- **Tablette** :
 
-![Input Focus Outline](./ressources/input-focus.png)
+  ![Maquette Tablette](ressources/home-tablet.png)
+- **Mobile** :
 
-## Responsive
-
-### Tablette
-
-![Tablette](./ressources/home-tablet.png)
-
-### Mobile
-
-![Mobile](./ressources/home-phone.png)
+  ![Maquette Mobile](ressources/home-phone.png)
